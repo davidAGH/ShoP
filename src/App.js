@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Shop } from './components/shop';
+import { Shop } from './pages/shop';
 import Loading from './components/loading';
 
 const App = () => {
