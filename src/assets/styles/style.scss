@@ -1,0 +1,104 @@
+.container {
+    p{
+        font-size: 18px;
+        color: #444;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-align: justify;
+        margin: 10px 0;
+        font-family: cursive;
+    }
+    .content {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            color: #444;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin: 10px 0;
+            font-family: cursive;
+        }
+        .headphones {
+            display: flex;
+            .imgStyle {
+                .buttons {
+                    padding: 10px 15px;
+                    font-size: 16px;
+                    border: 1px solid #ccc;
+                    background-color: #f9f9f9;
+                    color: #333;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-right: 10px;
+                    
+                    button:hover {
+                        background-color: #e0e0e0;
+                    }
+                    
+                    button:active {
+                        background-color: #ccc;
+                    }
+                    
+                    .increment-button {
+                        padding: 10px 15px;
+                        font-size: 20px;
+                        border: none;
+                        background-color: #00c853;
+                        color: #fff;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        margin-right: 10px;
+                    }
+                    
+                    .decrement-button {
+                        padding: 10px 18px;
+                        font-size: 20px;
+                        border: none;
+                        background-color: #f44336;
+                        color: #fff;
+                        border-radius: 50%;
+                        cursor: pointer;
+                    }
+
+                    .increment-button,
+                    .decrement-button {
+                        font-size: 20px;
+                        border: none;
+                        background-color: #333;
+                        color: #fff;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        margin-right: 10px;
+                    }
+                    
+                    .increment-button:hover,
+                    .decrement-button:hover {
+                        background-color: #444;
+                    }
+                    
+                    .increment-button:active,
+                    .decrement-button:active {
+                        background-color: #555;
+                    }
+  
+                }
+                
+                margin: 30px;
+                padding: 10px;
+                border: 1px solid rgb(205, 205, 205);
+                width: 20%;
+                
+                img {
+                    width: 100%;
+                }
+    
+            }
+        }
+        
+        
+        
+    }
+}
